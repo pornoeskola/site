@@ -1,6 +1,6 @@
-# Descripcin del repo
+# Website
 
-Aquí publicaremos la web con el contenido de todas las guas didácitas sobre el proyecto: Porno Eskola.
+Aquí publicaremos la web y guas didácticas sobre el proyecto: Porno Eskola
 
 # Proyecto
 
