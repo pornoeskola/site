@@ -1,0 +1,26 @@
+# general content
+
+title: Porno Eskola
+email: pornoeskola@gmail.com
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Sass settings
+
+sass:
+  sass_dir: _scss
+  style: :compressed
+
+# Gems
+
+gems:
+  - jekyll-feed
