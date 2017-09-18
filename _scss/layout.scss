@@ -14,6 +14,21 @@
 footer {
   width: 90%;
   margin: 0 auto;
-  max-width: 400px;
-  padding: 20% 0 20px 0;
+  max-width: 600px;
+}
+
+.home {
+  padding: 5% 0 20px 0;
+}
+
+footer {
+  display: none;
+}
+
+.home__img {
+  padding-top: 25px;
+  img {
+    width: 100%;
+    height: auto,;
+  }
 }
