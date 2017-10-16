@@ -1,27 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
   {% include head.html %}
 
-  <!-- webfont -->
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
   <body>
 
-    <div class="home">
-      <p class="home__img">
-        <img src="{{ site.baseurl }}/assets/images/welcome.png"/>
-      </p>
-      <h1 class="home_title">
-        PORNOESKOLA.
-      </h1>
-      <p class="home_description">
-        Muy pronto
-      </p>
+    {% include header.html %}
+    <p class="description">
+      {{ site.description[page.lang] }}
+    </p>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
 
-      <footer>
-          Creative Commons (by-sa) @ {{ site.time | date: '%Y' }}. pornoeskola@gmail.com
-      </footer>
-    </div>
+    {% include footer.html %}
+
   </body>
+
 </html>

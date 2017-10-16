@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/02/29/welcome-to-jekyll.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+        
+        <lastmod>2016-02-29T09:48:44+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+        
+        <lastmod>2016-02-29T09:48:44+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  
+    
+      <url>
+        <loc>/a-propos.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/a-propos.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/about/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/about/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/a-propos.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/about/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/accueil.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/accueil.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/feed.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/flux.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/accueil.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/" />
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/css/main.css</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/sitemaps.xml</loc>
+        
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+  </urlset>

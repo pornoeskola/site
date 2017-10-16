@@ -1,26 +1,28 @@
-# general content
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-title: Porno Eskola
+# Site settings
+title:
+  euskera: Porno Eskola
+  castellano: Porno Eskola
 email: pornoeskola@gmail.com
 description:
+  euskera: Estemos o no a favor del uso de la pornografía, es innegable el prominente uso que hacen de ella los y las adolescentes. La fácil accesibilidad que se tiene a ella mediante Internet la convierte en una herramienta de conocimiento aunque sus modelos no sean adecuados pedagógicamente. Por ello, en Porno Eskola, la guía didáctica sobre pornografía, vamos a reeducar en su utilización y a re-apropiarnos de sus contenidos para convertirlos en un instrumento formativo en el ámbito de la sexualidad. Es importate que las personas que vayan a acceder a esos contenidos sean capaces de discernir cuales son pedagógicos y cuales no lo son.
+  castellano: Pornografia erabiltzearen alde egon edo ez egon nerabeek erabiltzen dutela ukaezina da. Interneten bidez pornora heltzeko daukaten erraztasunak ezagutza tresna bihurtzen du. Hala ere, bertan erakusten diren ereduak ez dira egokiak ikuspegi pedagogiko batetik. Horregatik, bere erabilpena berrezituko dugu eta bere edukietaz jabetuko gara sexualitatearen esparruako tresna hezitzaile batean bihurtuz. Garrantzitsua da eduki hoiek erabiliko dituzten pertsonak pedagogikoak direnen eta ez direnen artean bereizteko gaitasuna izatea.
+index:
+  euskera:
+  castellano: accueil.html
+feed:
+  euskera: /feed.xml
+  castellano: /flux.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-
 markdown: kramdown
-theme: minima
-exclude:
-  - Gemfile
-  - Gemfile.lock
-
-# Sass settings
-
-sass:
-  sass_dir: _scss
-  style: :compressed
-
-# Gems
-
-gems:
-  - jekyll-feed
