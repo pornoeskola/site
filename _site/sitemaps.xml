@@ -3,12 +3,52 @@
   
     
       <url>
-        <loc>/jekyll/update/2016/02/29/welcome-to-jekyll.html</loc>
+        <loc>/jekyll/update/2016/03/01/didaktikoa2.html</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/03/01/didaktikoa2.html" />
         
-          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/03/01/didactico2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/didaktikoa1.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/didactico1.html" />
+        
+        <lastmod>2016-03-01T09:48:44+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/03/01/didactico2.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/03/01/didaktikoa2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/03/01/didactico2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/didaktikoa1.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/didactico1.html" />
+        
+        <lastmod>2016-03-01T09:48:44+01:00</lastmod>
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
+        <loc>/jekyll/update/2016/02/29/didaktikoa1.html</loc>
+        
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/03/01/didaktikoa2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/03/01/didactico2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/didaktikoa1.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/didactico1.html" />
         
         <lastmod>2016-02-29T09:48:44+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,12 +57,16 @@
   
     
       <url>
-        <loc>/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html</loc>
+        <loc>/jekyll/update/2016/02/29/didactico1.html</loc>
         
         
-          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/welcome-to-jekyll.html" />
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/03/01/didaktikoa2.html" />
         
-          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/bienvenue-sur-jekyll.html" />
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/03/01/didactico2.html" />
+        
+          <xhtml:link rel="alternate" hreflang="euskera" href="/jekyll/update/2016/02/29/didaktikoa1.html" />
+        
+          <xhtml:link rel="alternate" hreflang="castellano" href="/jekyll/update/2016/02/29/didactico1.html" />
         
         <lastmod>2016-02-29T09:48:44+01:00</lastmod>
         <changefreq>weekly</changefreq>

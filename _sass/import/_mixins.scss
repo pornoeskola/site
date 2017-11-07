@@ -1,0 +1,24 @@
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.rad_zero {
+  @include border-radius(0);
+}
+
+.rad_small {
+  @include border-radius(4px);
+}
+
+.rad_medium {
+  @include border-radius(64px);
+}
+
+.rad_circle {
+  @include border-radius(100%);
+}

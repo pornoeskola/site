@@ -4,9 +4,114 @@ ref: index
 lang: castellano
 ---
 
+<section class="hero hero--welcome">
+  <div class="hero__content">
+    <h1 class="hero__title">
+      ¿Es la pornografía la educación sexual de hoy en día?
+    </h1>
+    <p class="hero__description">
+      Porno Eskola es una guía didática sobre pornografía que tiene como objetivo principal ser una herramineta de ducación sexual
+    </p>
+  </div>
+</section>
+<section class="section section--row">
+  <h2 class="section__title">
+    Preguntas frecuentes
+  </h2>
+  <div class="section-two section-two--accordion">
+    <div class="section-two__box">
+      <!-- faq acordion -->
+      <div class="faq-accordion">
+        <button class="faq-accordion__question">
+          {{ site.question-1[page.lang] }}
+        </button>
+        <div class="faq-accordion__result">
+          <p>
+            {{ site.response-1[page.lang] }}
+          </p>
+        </div>
+        <button class="faq-accordion__question">
+          {{ site.question-2[page.lang] }}
+        </button>
+        <div class="faq-accordion__result">
+          <p>
+            {{ site.response-2[page.lang] }}
+          </p>
+        </div>
+        <button class="faq-accordion__question">
+          {{ site.question-3[page.lang] }}
+        </button>
+        <div class="faq-accordion__result">
+          <p>
+            {{ site.response-3[page.lang] }}
+          </p>
+        </div>
+        <button class="faq-accordion__question">
+          {{ site.question-4[page.lang] }}
+        </button>
+        <div class="faq-accordion__result">
+          <p>
+            {{ site.response-4[page.lang] }}
+          </p>
+        </div>
+        <button class="faq-accordion__question">
+          {{ site.question-5[page.lang] }}
+        </button>
+        <div class="faq-accordion__result">
+          <p>
+            {{ site.response-5[page.lang] }}
+          </p>
+        </div>
+      </div>
+      <!-- faq acordion -->
+    </div>
+    <div class="section-two__box">
+      <img src="/assets/img/question.jpg" class="question__img">
+    </div>
+  </div>
+</section>
+
+<section class="section section--row featured">
+  <div class="featured__box featured__box--big">
+    <a href="" class="featured__link"></a>
+    <div class="featured__subtitle">Unidad didáctica I</div>
+    <h2 class="featured__title">
+      Soy un título bastante importante
+    </h2>
+    <p class="featured__p-link">Ver unidad</p>
+  </div>
+
+  <div class="featured__box featured__box--medium">
+    <a href="" class="featured__link"></a>
+    <div class="featured__subtitle">Unidad didáctica I</div>
+    <h2 class="featured__title">
+      Soy un título bastante importante
+    </h2>
+    <p class="featured__p-link">Ver unidad</p>
+  </div>
+
+  <div class="featured__box featured__box--small">
+    <a href="" class="featured__link"></a>
+    <div class="featured__subtitle">Unidad didáctica I</div>
+    <h2 class="featured__title">
+      Soy un título bastante importante
+    </h2>
+    <p class="featured__p-link">Ver unidad</p>
+  </div>
+
+  <div class="featured__box featured__box--small featured__box--small-2">
+    <a href="" class="featured__link"></a>
+    <div class="featured__subtitle">Unidad didáctica I</div>
+    <h2 class="featured__title">
+      Soy un título bastante importante
+    </h2>
+    <p class="featured__p-link">Ver unidad</p>
+  </div>
+</section>
+
 <div class="home">
 
-  <h1 class="page-heading">Articles</h1>
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -21,6 +126,6 @@ lang: castellano
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">suivre le <a href="{{ "/flux.xml" | prepend: site.baseurl }}">flux RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -1,0 +1,67 @@
+.hero {
+  align-items: flex-end;
+  background: $color-corporative;
+  display: flex;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.hero__content {
+  @extend .flash;
+
+  flex: 0 1 90%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.hero__title {
+  @extend .typo-dosis-bold;
+
+  color: $color-white;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.hero__description {
+  color: $color-black;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  opacity: .4;
+  padding-top: 2rem;
+}
+
+.hero__didactica {
+  top: 5rem;
+  font-size: 1rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  color: $color-black;
+  opacity: .4;
+}
+
+@media only screen and (min-width: $size-large) {
+  .hero {
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .hero__content {
+    flex: 0 1 50%;
+  }
+
+  .hero__didactica {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: $size-xxlarge) {
+  .hero__title {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+}

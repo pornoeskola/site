@@ -1,8 +1,7 @@
-<header class="site-header">
+<header class="site-header" style="display: none;">
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -26,11 +25,15 @@
   </div>
 
 </header>
+<header class="header">
+  <div class="header__box">
+    <a class="header__logo" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
+  </div>
+  <div class="header__box language-nav">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
-<div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
-
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
-</div>
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  </div>
+</header>

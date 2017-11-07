@@ -51,3 +51,36 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+
+// variables 
+
+@import 'variables/webfonts';
+@import 'variables/breakpoints';
+@import 'variables/colors';
+@import 'variables/typography';
+@import 'variables/section';
+
+// import
+
+@import 'import/transition';
+@import 'import/mixins';
+
+// layout 
+
+@import 'layout/header';
+@import 'layout/footer';
+
+
+// view 
+
+@import 'view/home';
+@import 'view/post';
+@import 'view/page';
+
+
+// partial
+
+@import 'partial/accordion';
+@import 'partial/title-section';
+@import 'partial/featured';

@@ -1,38 +1,29 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title[page.lang] }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] }}</p>
+<footer class="footer">
+  <div class="footer__partners">
+    <div class="footer__box">
+      <h3 class="footer__title">
+        Agradecimientos
+      </h3>
+      <div class="footer__link-partners">
+        <a href="" class="footer__partner footer__partner--ayuntamiento"></a>
+        <a href="" class="footer__partner footer__partner--haziak"></a>
       </div>
     </div>
-
+    <div class="footer__box footer__box--rrss">
+      <h3 class="footer__title">
+        Redes sociales
+      </h3>
+      <a href="" class="footer__rrss footer__rrss--twitter">twitter</a>
+      <a href="" class="footer__rrss footer__rrss--facebook">facebook</a>
+      <a href="" class="footer__rrss footer__rrss--instagram">instagram</a>
+    </div>
   </div>
+  <div class="footer__credits">
+    2017 @ Porno Eskola, por Iratxe Gil + <a href="">colaboradores/as</a>
+  </div>
+</footer>
+
+<!-- js -->
+<script type="text/javascript" src="{{ "/assets/js/app.js" | prepend: site.baseurl }}"></script>
 
 </footer>

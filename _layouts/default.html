@@ -6,14 +6,8 @@
   <body>
 
     {% include header.html %}
-    <p class="description">
-      {{ site.description[page.lang] }}
-    </p>
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+
+    {{ content }}
 
     {% include footer.html %}
 
