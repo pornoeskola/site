@@ -58,9 +58,12 @@ $featured-height-small: $featured-height;
 }
 
 .featured__subtitle {
+  @extend .typo-lato-bold;
+
   color: $color-black;
   opacity: .4;
-  padding-bottom: 1rem;
+  font-size: 0.85rem;
+  padding-bottom: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -70,6 +73,20 @@ $featured-height-small: $featured-height;
   color: $color-white;
   font-size: 2rem;
   line-height: 2rem;
+}
+
+.featured__p-link {
+  @extend .typo-dosis-bold;
+  @extend .rad_medium;
+
+  color: $color-white;
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  border: 4px solid $color-white;
 }
 
 @media only screen and (min-width: $size-medium) {
