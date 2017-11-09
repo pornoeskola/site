@@ -21,7 +21,7 @@ $faq-accordion-question-border: 1px solid #f0f0f0;
   border: none;
   color: $color-corporative;
   cursor: pointer;
-  padding: 1.25rem 2rem;
+  padding: 1.25rem 0;
   width: 100%;
   text-align: left;
   outline: none;
@@ -83,4 +83,10 @@ $faq-accordion-question-border: 1px solid #f0f0f0;
   width: 80%;
   margin: 2rem auto;
   display: block;
+}
+
+@media only screen and (min-width: $size-large) {
+  .faq-accordion__question {
+    padding: 1.25rem 2rem;
+  }
 }

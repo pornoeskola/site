@@ -6,6 +6,7 @@
   left: 50%;
   bottom: 5%;
   z-index: 20;
+  display: none;
 }
 
 .icon-scroll { 
@@ -38,5 +39,12 @@
   100% {
     opacity: 0;
     transform: translateY(36px);
+  }
+}
+
+@media only screen and (min-width: $size-medium) {
+  .icon-scroll,
+  .icon-scroll:before {
+    display: block;
   }
 }

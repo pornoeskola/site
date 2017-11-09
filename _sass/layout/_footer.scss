@@ -6,7 +6,7 @@
 
 .footer__partners {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-between;
 }
 
@@ -113,4 +113,10 @@
 .footer__rrss--facebook,
 .footer__rrss--instagram {
   background-size: 30px;
+}
+
+@media only screen and (min-width: $size-large) {
+  .footer__partners {
+    flex-flow: row wrap;
+  }
 }
