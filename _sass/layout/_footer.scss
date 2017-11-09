@@ -1,0 +1,122 @@
+.footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.footer__partners {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.footer__box {
+  flex: 0 1 70%;
+  padding-bottom: 2rem;
+}
+
+.footer__box--rrss {
+  flex: 0 1 30%;
+}
+
+.footer__title {
+  @extend .typo-lato-black;
+
+  color: $color-gray;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+
+  &:after {
+    background: $color-gray;
+    content: '';
+    display: block;
+    height: 6px;
+    margin-top: .5rem;
+    width: 32px;
+  }
+}
+
+.footer__credits {
+  border-top: 1px solid #f0f0f0;
+  padding: 2rem 0;
+  font-size: 0.85rem;
+  color: $color-gray;
+
+  a {
+    color: $color-gray;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer__partner {
+  @extend .t;
+
+  width: 140px;
+  height: 80px;
+  margin-right: 2rem;
+  display: inline-block;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.footer__link-partners {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__partner--ayuntamiento {
+  background: transparent url('../assets/img/footer/ayuntamiento.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.footer__partner--haziak {
+  background: transparent url('../assets/img/footer/haziak.jpg') no-repeat;
+  background-size: 100%;
+  height: 34px;
+}
+
+.footer__rrss {
+  @extend .t;
+
+  border: 8px solid $color-corporative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-indent: -9999999px;
+  margin-right: 1rem;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.footer__rrss--twitter {
+  background: transparent url('../assets/svg/rrss/twitter.svg') center no-repeat;
+}
+
+.footer__rrss--facebook {
+  background: transparent url('../assets/svg/rrss/facebook.svg') center no-repeat;
+}
+
+.footer__rrss--instagram {
+  background: transparent url('../assets/svg/rrss/instagram.svg') center no-repeat;
+}
+
+.footer__rrss--twitter,
+.footer__rrss--facebook,
+.footer__rrss--instagram {
+  background-size: 30px;
+}
+
+@media only screen and (min-width: $size-large) {
+  .footer__partners {
+    flex-flow: row wrap;
+  }
+}

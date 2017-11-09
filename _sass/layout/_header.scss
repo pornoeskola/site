@@ -1,0 +1,89 @@
+$header-logo-width: 80px;
+$header-logo-height: $header-logo-width;
+$header-logo-mobile-width: 70px;
+$header-logo-mobile-height: $header-logo-mobile-width;
+
+.header {
+  @extend .flash_down;
+
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  // Revise z-index
+  z-index: 99999;
+}
+
+.header__box {
+  flex: 0 1 20%;
+  padding: 2rem 0;
+}
+
+.language-nav {
+  flex: 0 1 80%;
+  text-align: right;
+  
+  a {
+    @extend .typo-dosis-bold;
+    @extend .rad_medium;
+
+    color: $color-white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.75rem 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &--eus {
+    a:last-child {
+      background: $color-white !important;
+      color: $color-corporative !important;
+      font-weight: bold !important;
+    }
+  }
+  &--cast {
+    a:first-child {
+      background: $color-white;
+      color: $color-corporative;
+      font-weight: bold;
+    }
+  }
+}
+
+.header__logo {
+  @extend .t;
+
+  background: transparent url('../assets/svg/logo.svg') center;
+  background-size: 100%;
+  display: block;
+  height: $header-logo-mobile-height;
+  text-indent: -999999px;
+  width: $header-logo-mobile-width;
+
+  &:hover {
+    opacity: .6;
+  }
+}
+
+
+@media only screen and (min-width: $size-large) {
+  .header__logo {
+    height: $header-logo-height;
+    width: $header-logo-width;
+  }
+
+  .language-nav {
+    a {
+      font-size: 1.15rem;
+      padding: 1.25rem 2rem;
+    }
+  }
+}

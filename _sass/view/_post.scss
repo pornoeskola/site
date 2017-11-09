@@ -1,0 +1,26 @@
+.post__content {
+  p {
+    color: $color-gray;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: .5rem 0;
+  }
+}
+
+.post__subtitle {
+  @extend .typo-dosis-bold;
+
+  color: $color-corporative;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.objetivos {
+  margin-left: 1rem;
+
+  li {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: $color-corporative;
+  }
+}
