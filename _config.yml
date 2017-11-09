@@ -15,7 +15,7 @@ description:
   castellano: Pornografia erabiltzearen alde egon edo ez egon nerabeek erabiltzen dutela ukaezina da. Interneten bidez pornora heltzeko daukaten erraztasunak ezagutza tresna bihurtzen du. Hala ere, bertan erakusten diren ereduak ez dira egokiak ikuspegi pedagogiko batetik. Horregatik, bere erabilpena berrezituko dugu eta bere edukietaz jabetuko gara sexualitatearen esparruako tresna hezitzaile batean bihurtuz. Garrantzitsua da eduki hoiek erabiliko dituzten pertsonak pedagogikoak direnen eta ez direnen artean bereizteko gaitasuna izatea.
 index:
   euskera:
-  castellano: accueil.html
+  castellano: hola.html
 feed:
   euskera: /feed.xml
   castellano: /flux.xml
@@ -29,6 +29,18 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+thanks:
+  euskera: Eskerrak
+  castellano: Redes sociales
+
+rrss:
+  euskera: Sare sozialak
+  castellano: Redes sociales
+
+credits:
+    euskera: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola, Iratxe Gil-ek egina + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
+    castellano: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola, por Iratxe Gil + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
 
 question-1:
   euskera: Sarrera. ¿Zer da Porno Eskola?

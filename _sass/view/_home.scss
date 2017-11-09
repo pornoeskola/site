@@ -8,22 +8,23 @@
 }
 
 .hero__content {
-  @extend .flash;
-
   flex: 0 1 90%;
   margin: 0 auto;
   padding-bottom: 4rem;
 }
 
 .hero__title {
+  @extend .flash;
   @extend .typo-dosis-bold;
 
   color: $color-white;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
 }
 
 .hero__description {
+  @extend .flash_2;
   color: $color-black;
   font-size: 1.75rem;
   line-height: 1.75rem;
@@ -32,12 +33,21 @@
 }
 
 .hero__didactica {
-  top: 5rem;
-  font-size: 1rem;
+  @extend .flash_2;
+  @extend .typo-lato-bold;
+
   padding-bottom: 2rem;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: $color-black;
   opacity: .4;
+}
+
+@media only screen and (min-width: $size-medium) {
+  .hero__title {
+    font-size: 2.66rem;
+    line-height: 2.65rem;
+  }
 }
 
 @media only screen and (min-width: $size-large) {
@@ -45,23 +55,27 @@
     align-items: center;
   }
 
-  .hero__title {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-
   .hero__content {
-    flex: 0 1 50%;
+    flex: 0 1 70%;
+    text-align: center;
   }
 
-  .hero__didactica {
-    font-size: 1.25rem;
+  .hero__title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (min-width: $size-xlarge) {
+  .hero__title {
+    font-size: 3.25rem;
+    line-height: 3.25rem;
   }
 }
 
 @media only screen and (min-width: $size-xxlarge) {
   .hero__title {
-    font-size: 6rem;
-    line-height: 6rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
   }
 }

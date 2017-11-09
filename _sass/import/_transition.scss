@@ -3,11 +3,13 @@
    transition: 0.2s;
 }
 
+$flash-time: show_title ease 1.5s both;;
+
 .flash {
-  animation: show_title ease 0.7s both;
-  -webkit-animation: show_title ease 0.7s both;
-  -moz-animation: show_title ease 0.7s both;
-  -o-animation: show_title ease  0.7s both;
+  animation: $flash-time;
+  -webkit-animation: $flash-time;
+  -moz-animation: $flash-time;
+  -o-animation: $flash-time;
 }
 
 @-moz-keyframes show_title {
@@ -43,6 +45,53 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+// flash 2
+
+$flash-2-time: show_title_2 ease 2.5s both;
+
+.flash_2 {
+  animation: $flash-2-time;
+  -webkit-animation: $flash-2-time;
+  -moz-animation: $flash-2-time;
+  -o-animation: $flash-2-time;
+}
+
+@-moz-keyframes show_title_2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .4;
+  }
+}
+
+@-webkit-keyframes show_title_2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .4;
+  }
+}
+
+@keyframes show_title_2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .4;
   }
 }
 

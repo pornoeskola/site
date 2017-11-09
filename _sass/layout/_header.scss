@@ -1,3 +1,6 @@
+$header-logo-width: 80px;
+$header-logo-height: $header-logo-width;
+
 .header {
   @extend .flash_down;
 
@@ -35,8 +38,16 @@
     &:hover {
       text-decoration: underline;
     }
-
-    &:first-child {
+  }
+  &--eus {
+    a:last-child {
+      background: $color-white !important;
+      color: $color-corporative !important;
+      font-weight: bold !important;
+    }
+  }
+  &--cast {
+    a:first-child {
       background: $color-white;
       color: $color-corporative;
       font-weight: bold;
@@ -45,10 +56,16 @@
 }
 
 .header__logo {
+  @extend .t;
+
   background: transparent url('../assets/svg/logo.svg') center;
   background-size: 100%;
   display: block;
-  height: 120px;
+  height: $header-logo-height;
   text-indent: -999999px;
-  width: 120px;
+  width: $header-logo-width;
+
+  &:hover {
+    opacity: .6;
+  }
 }

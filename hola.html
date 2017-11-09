@@ -4,15 +4,16 @@ ref: index
 lang: castellano
 ---
 
+{% include header_castellano.html %}
+
+
 <section class="hero hero--welcome">
   <div class="hero__content">
     <h1 class="hero__title">
-      ¿Es la pornografía la educación sexual de hoy en día?
+      Porno Eskola es una guía didáctica sobre pornografía que tiene como objetivo principal ser una herramienta de educación sexual
     </h1>
-    <p class="hero__description">
-      Porno Eskola es una guía didática sobre pornografía que tiene como objetivo principal ser una herramineta de ducación sexual
-    </p>
   </div>
+  <div class="icon-scroll"><div/>
 </section>
 <section class="section section--row">
   <h2 class="section__title">
@@ -72,60 +73,15 @@ lang: castellano
 </section>
 
 <section class="section section--row featured">
-  <div class="featured__box featured__box--big">
-    <a href="" class="featured__link"></a>
-    <div class="featured__subtitle">Unidad didáctica I</div>
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% for post in posts %}
+  <div class="featured__box">
+    <a class="featured__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <div class="featured__subtitle">{{ post.didactica }}</div>
     <h2 class="featured__title">
-      Soy un título bastante importante
+      {{ post.title }}
     </h2>
     <p class="featured__p-link">Ver unidad</p>
   </div>
-
-  <div class="featured__box featured__box--medium">
-    <a href="" class="featured__link"></a>
-    <div class="featured__subtitle">Unidad didáctica I</div>
-    <h2 class="featured__title">
-      Soy un título bastante importante
-    </h2>
-    <p class="featured__p-link">Ver unidad</p>
-  </div>
-
-  <div class="featured__box featured__box--small">
-    <a href="" class="featured__link"></a>
-    <div class="featured__subtitle">Unidad didáctica I</div>
-    <h2 class="featured__title">
-      Soy un título bastante importante
-    </h2>
-    <p class="featured__p-link">Ver unidad</p>
-  </div>
-
-  <div class="featured__box featured__box--small featured__box--small-2">
-    <a href="" class="featured__link"></a>
-    <div class="featured__subtitle">Unidad didáctica I</div>
-    <h2 class="featured__title">
-      Soy un título bastante importante
-    </h2>
-    <p class="featured__p-link">Ver unidad</p>
-  </div>
+  {% endfor %}
 </section>
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
