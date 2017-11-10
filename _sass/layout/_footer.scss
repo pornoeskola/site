@@ -37,9 +37,11 @@
 }
 
 .footer__credits {
+  @extend .typo-lato-regular;
+
   border-top: 1px solid #f0f0f0;
   padding: 2rem 0;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: $color-gray;
 
   a {
