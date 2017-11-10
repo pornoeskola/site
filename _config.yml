@@ -30,17 +30,25 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Footer
+
 thanks:
   euskera: Eskerrak
-  castellano: Redes sociales
+  castellano: Agradecimientos
 
 rrss:
   euskera: Sare sozialak
   castellano: Redes sociales
 
 credits:
-    euskera: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola, Iratxe Gil-ek egina + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
-    castellano: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola, por Iratxe Gil + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
+    euskera: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola
+    castellano: 2017 <a href="https://creativecommons.org/licenses/by-sa/3.0/es/" target="_blank">(by-sa)</a> Porno Eskola
+
+credits-sub: 
+  euskera: Iratxe Gil-ek egina + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
+  castellano: Iratxe Gil + Endika Gil, Jon Gil, Patricia García y <a href="http://worldx3.com" target="_blank">worldx3</a>
+
+# home
 
 question-1:
   euskera: Sarrera. ¿Zer da Porno Eskola?

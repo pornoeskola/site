@@ -39,7 +39,6 @@
 .footer__credits {
   border-top: 1px solid #f0f0f0;
   padding: 2rem 0;
-  font-size: 0.85rem;
   color: $color-gray;
 
   a {
@@ -50,6 +49,38 @@
       text-decoration: underline;
     }
   }
+}
+
+.footer__bigcredits,
+.footer__smallcredits {
+  padding: 0;
+  margin: 0;
+}
+
+.footer__bigcredits {
+  @extend .typo-dosis-bold;
+  
+  font-size: 0.85rem;
+  padding-bottom: 0.5rem;
+
+
+  a:before {
+    display: inline-block;
+    background: transparent url('../assets/svg/cc.svg') no-repeat center;
+    background-size: auto 100%;
+    content: '';
+    height: 20px;
+    margin: 0 0.25rem;
+    opacity: .4;
+    transform: translateY(5px);
+    width: 25px;
+  }
+}
+
+.footer__smallcredits {
+  @extend .typo-lato-regular;
+
+  font-size: 0.65rem;
 }
 
 .footer__partner {

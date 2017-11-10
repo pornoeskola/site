@@ -14,7 +14,7 @@ $header-logo-mobile-height: $header-logo-mobile-width;
   width: 90%;
   display: flex;
   justify-content: space-between;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   // Revise z-index
   z-index: 99999;
 }
