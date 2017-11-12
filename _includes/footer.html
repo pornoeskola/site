@@ -19,7 +19,12 @@
     </div>
   </div>
   <div class="footer__credits">
-    {{ site.credits[page.lang] }}
+    <p class="footer__bigcredits">
+      {{ site.credits[page.lang] }}
+    </p>
+    <p class="footer__smallcredits">
+      {{ site.credits-sub[page.lang] }}
+    </p>
   </div>
 </footer>
 

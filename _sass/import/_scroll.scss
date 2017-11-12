@@ -1,6 +1,6 @@
 .icon-scroll,
 .icon-scroll:before {
-  @extend .flash;
+  @extend .flash_down;
   
   position: absolute;
   left: 50%;
@@ -42,7 +42,7 @@
   }
 }
 
-@media only screen and (min-width: $size-medium) {
+@media only screen and (min-width: $size-large) {
   .icon-scroll,
   .icon-scroll:before {
     display: block;
