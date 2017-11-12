@@ -2,7 +2,7 @@
   align-items: flex-end;
   background: $color-corporative;
   display: flex;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   width: 100%;
 }
@@ -43,6 +43,41 @@
   opacity: .4;
 }
 
+.hero__download {
+  border-top: 4px solid #f0f0f0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  background: white;
+}
+
+.hero__paragraph {
+  color: $color-white;
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  display: none;
+}
+
+.hero__btn-download {
+  @extend .t;
+  @extend .typo-lato-bold;
+
+  text-align: center;
+  background: $color-corporative;
+  box-sizing: border-box;
+  color: $color-white !important;
+  display: block;
+  padding: 2rem 0;
+
+  &:hover {
+    background: $color-white;
+    color: $color-corporative !important;
+    text-decoration: none;
+  }
+}
+
 @media only screen and (min-width: $size-medium) {
   .hero__title {
     font-size: 2.66rem;
@@ -53,6 +88,7 @@
 @media only screen and (min-width: $size-large) {
   .hero {
     align-items: center;
+    height: 100vh;
   }
 
   .hero__content {
@@ -63,6 +99,27 @@
   .hero__title {
     font-size: 3rem;
     line-height: 3rem;
+  }
+
+  .hero__download {
+    background: transparent;
+    border-top: 0;
+    bottom: 2rem;
+    left: auto;
+    position: absolute;
+    right: 5%;
+    width: auto;
+  }
+
+  .hero__paragraph {
+    display: block;
+  }
+
+  .hero__btn-download {
+    border: 4px solid $color-white;
+    color: $color-white !important; // revise
+    display: inline-block;
+    padding: 1.25rem 2rem;
   }
 }
 
