@@ -64,6 +64,7 @@
 .hero__btn-download {
   @extend .t;
   @extend .typo-lato-bold;
+  @extend .rad_medium;
 
   text-align: center;
   background: $color-corporative;
@@ -73,7 +74,7 @@
   padding: 2rem 0;
 
   &:hover {
-    background: $color-white;
+    background: $color-white !important;
     color: $color-corporative !important;
     text-decoration: none;
   }
