@@ -80,6 +80,16 @@
     color: $color-white !important;
     text-decoration: none;
   }
+
+  .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 0.5rem;
+    stroke: $color-white;
+    fill: $color-white;
+    transform: translateY(5px);
+  }
 }
 
 @media only screen and (min-width: $size-medium) {
