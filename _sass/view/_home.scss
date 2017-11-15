@@ -11,6 +11,7 @@
 .hero__content {
   flex: 0 1 90%;
   margin: 0 auto;
+  max-width: 900px;
   padding-bottom: 1rem;
 }
 
@@ -26,11 +27,13 @@
 
 .hero__description {
   @extend .flash_2;
+  @extend .typo-lato-black;
+
   color: $color-black;
-  font-size: 1.75rem;
-  line-height: 1.75rem;
+  font-size: 1.45rem;
+  line-height: 1.45rem;
   opacity: .4;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .hero__didactica {
