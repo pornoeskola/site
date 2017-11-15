@@ -24,3 +24,53 @@
     color: $color-corporative;
   }
 }
+
+// category 
+
+.post--cat_1 {
+  .hero,
+  .title-section__title,
+  .hero__btn-download {
+    background: $color-cat1;
+  }
+  .post__subtitle,
+  .objetivos li {
+    color: $color-cat1;
+  }
+}
+
+.post--cat_2 {
+  .hero,
+  .title-section__title,
+  .hero__btn-download {
+    background: $color-cat2;
+  }
+  .post__subtitle,
+  .objetivos li {
+    color: $color-cat2;
+  }
+}
+
+.post--cat_3 {
+  .hero,
+  .title-section__title,
+  .hero__btn-download {
+    background: $color-cat3;
+  }
+  .post__subtitle,
+  .objetivos li {
+    color: $color-cat3;
+  }
+}
+
+.post--cat_4 {
+  .hero,
+  .title-section__title,
+  .hero__btn-download {
+    background: $color-cat4;
+  }
+  .post__subtitle,
+  .objetivos li {
+    color: $color-cat4;
+  }
+}

@@ -25,13 +25,25 @@
 // Subtitle
 
 .section__title {
-  background: $color-black;
-  color: $color-white;
+  @extend .typo-lato-bold;
+
+  color: $color-black;
   display: block;
   max-width: 400px;
-  font-size: 2rem;
+  font-size: 1.25rem;
   margin: 0 auto;
   text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  &:after {
+    background: #f0f0f0;
+    display: block;
+    content: '';
+    height: 1px;
+    margin: 1rem auto 0 auto;
+    width: 180px;
+  }
 }
 
 // Box
