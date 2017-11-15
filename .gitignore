@@ -1,2 +1,4 @@
 .sass-cache/
 *.css.map
+_site/feed.xml
+_site/flux.xml
