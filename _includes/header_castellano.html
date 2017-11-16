@@ -2,7 +2,7 @@
   <div class="header__box">
     <a class="header__logo" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
   </div>
-  <div class="header__box language-nav language-nav--cast">
+  <div class="header__box language-nav language-nav--cast nav--{{ page.cat_template }}">
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
