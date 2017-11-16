@@ -67,19 +67,28 @@
 .hero__btn-download {
   @extend .t;
   @extend .typo-lato-bold;
-  @extend .rad_medium;
 
   text-align: center;
   background: $color-corporative;
   box-sizing: border-box;
   color: $color-white !important;
   display: block;
-  padding: 2rem 0;
+  padding: 1rem 0;
 
   &:hover {
-    background: $color-white !important;
-    color: $color-corporative !important;
+    background: $color-black !important;
+    color: $color-white !important;
     text-decoration: none;
+  }
+
+  .icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 0.5rem;
+    stroke: $color-white;
+    fill: $color-white;
+    transform: translateY(5px);
   }
 }
 
@@ -125,6 +134,10 @@
     color: $color-white !important; // revise
     display: inline-block;
     padding: 1.25rem 2rem;
+
+    &:hover {
+      border: 4px solid $color-black;
+    }
   }
 }
 
