@@ -20,7 +20,7 @@ feed:
   euskera: /feed.xml
   castellano: /flux.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://pornoeskola.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 

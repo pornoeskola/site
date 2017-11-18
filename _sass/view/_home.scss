@@ -25,6 +25,13 @@
   text-transform: uppercase;
 }
 
+.hero__img {
+  height: auto;
+  margin: auto;
+  width: 90%;
+  max-width: 500px;
+}
+
 .hero__description {
   @extend .flash_2;
   @extend .typo-lato-black;
