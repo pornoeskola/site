@@ -51,6 +51,23 @@
   }
 }
 
+.footer__email {
+  @extend .typo-dosis-bold;
+
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+
+  a {
+    color: $color-corporative;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .footer__bigcredits,
 .footer__smallcredits {
   padding: 0;
