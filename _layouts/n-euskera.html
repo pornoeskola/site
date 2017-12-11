@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{% include header_euskera.html %}
+
+<article class="post post--{{ page.cat_template }}" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <section class="hero hero--welcome">
+    <div class="hero__content">
+      <div class="hero__didactica">
+        {{ page.didactica }}
+      </div>
+      <h1 class="hero__title">
+        {{ page.title }}
+      </h1>
+      <p class="hero__description">
+        {{ page.subtitle }}
+      </p>
+    </div>
+  </section>
+  <section class="section section--row" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
+
